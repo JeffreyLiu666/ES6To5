@@ -9,17 +9,19 @@
   "author": "junfeng.liu",
   "license": "ISC",
   "dependencies": {
-    "@babel/polyfill": "^7.7.0"
+    "@babel/polyfill": "^7.8.7",
+    "core-js": "^3.6.4"
   },
   "devDependencies": {
-    "@babel/cli": "^7.7.0",
-    "@babel/core": "^7.7.2",
-    "@babel/plugin-transform-runtime": "^7.6.2",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/runtime-corejs2": "^7.7.2",
-    "babel-loader": "^8.0.6",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/runtime-corejs2": "^7.9.2",
+    "@babel/runtime-corejs3": "^7.9.2",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "glob": "^7.1.6",
-    "webpack": "^4.41.2"
+    "webpack": "^4.42.0"
   }
 }

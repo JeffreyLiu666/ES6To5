@@ -1,7 +1,7 @@
 const promise = new Promise((resolve, reject) => {
-    resolve(1)
+    resolve([])
 })
 
 promise.then((res) => {
-    console.log(res)
+    console.log('ggggggggggg', res.includes(1))
 })
